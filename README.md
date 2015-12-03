@@ -1,15 +1,16 @@
-# ng-class & CSS animation
+# Angular UI: ngClass and CSS animations
 
 ### Objectives
-- Apply classes using 3 different ng-class variations
-- Change classes dynamically based on changing variables
-- Apply a CSS class using transition for subtle animation
+- Dynamically apply and remove css classes using `ng-class`
+- Animate elements with CSS transitions or keyframe animations
 
 ## CSS Classes in Angular - Intro (5 mins)
 
 As you know, Angular is a great, dynamic front-end framework. One of the things you'll do _most_ often when building a frontend is apply CSS classes to style elements on the page. Having the ability to change those styles based on _data_  can enable you to make some really dynamic interface designs. You certainly have the skills to do this with tools you've already learned, but Angular has a special directive just for this purpose – **ngClass**.
 
-Once we've looked at how Angular helps us apply classes, we'll mix in some non-Angular-specific strategies to add subtle animation to our style with CSS. Little things like CSS animation can really boost the credibility of your design – _if_ you use it well. As a first step, you have to know how to use it at all!
+Once we've looked at how Angular helps us apply classes, we'll mix in some non-Angular-specific strategies to add subtle animation to our style with CSS. Little things like CSS animation can really boost the credibility of your design – _if_ you use it well. As a first step, you have to know how to use it at all.
+
+Finally, you'll incorporate two external Angular modules to kick your UI up a notch.
 
 ## Starter Code - Intro (5 mins)
 
