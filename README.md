@@ -95,7 +95,7 @@ Require the user to input a reason for the new winner. Try submitting the form w
 
 Give the reason field a minimum length of three and a maximum length of thirty. (Hint: look at the docs for `input[text]`.) Now what happens if you submit the form with the wrong length reason?  Disable the submit button if the form is invalid (Hint: look up `$invalid`.)
 
-## Sharing Circle (10 mins)
+## Share out (10 mins)
 
 <!-- 55 mins -->
 
@@ -173,11 +173,11 @@ div {
 
 Note also that you can put the time in seconds.
 
-## CSS Animation Demo (10 minutes)
+## CSS Animation Demo (5 minutes)
 
 Now before we try it ourselves, let's see an animation. Animations are triggered, remember. By default, they are triggered when an object appears or when a class is applied to an object.
 
-Before we can trigger an animation, we have to _define_  it with keyframes. Imagine a timeline where you're saying "At this spot, do this. At this next spot, change that. At this other spot, it should look like this."
+Before we can trigger a keyframe animation, we have to _define_  it with keyframes. Imagine a timeline where you're saying "At this spot, do this. At this next spot, change that. At this other spot, it should look like this."
 
 We do that by creating a special `@keyframes` rule, and we name it whatever we like:
 
@@ -210,7 +210,7 @@ Just like a function, we reference the animation with the name we invented.
 
 **Try refreshing the page** – see how it now fades in? **Try adding a name.** See how it fades?
 
-## CSS Transition & Animation Independent Practice (10 minutes)
+## Transitions & Keyframes Independent Practice (10 minutes)
 
 Now that we've seen two simple examples, play around with animations. Add keyframes to animate different properties. Use transitions over hover on other elements, and see what CSS properties you can subtly animate.
 
@@ -221,7 +221,7 @@ There are a lot of CSS properties to play with and a lot of possibilities.  For 
 - How could you make something fade _out_?
 - Most importantly – **what simple animations could you add to help guide a user to know what to do with this page?** How could you use animation to show them how the interface works?
 
-## Discussion (5 mins)
+## Share & Discuss (10 mins)
 - What's the difference between CSS transitions and animations? Where might you use one or the other?
 - How do you write an `ngClass` with multiple CSS classes?
 - When do you use `ngClass` vs. normal classes?
@@ -232,7 +232,7 @@ There are a lot of CSS properties to play with and a lot of possibilities.  For 
 
 UI-Bootstrap was built as part of a larger Angular-UI project that has many modules. (You can see their list at <a href="https://angular-ui.github.io/">Angular-UI</a>.) Those are only one group of modules; many more exist. There's no real central location to find a comprehensive list of community-built angular modules, but some sites have tried - like <a href="http://ngmodules.org/" target="_blank">ngmodules.org</a>. You'll also find articles or posts online like <a href="https://codegeekz.com/18-best-angularjs-directives-for-developers/" target="_blank">18 Best AngularJS Directives for Developers</a>. As with Ruby gems and Node modules, you'll get into the habit of checking if "there's a ____ for that." Just be careful to check when an external module was last updated, whether it has good documentation, whether it's maintained, etc.
 
-## Add an External Directive - Independent Practice (15 mins)
+## External Directive Independent Practice (15 mins)
 
 Try incorporating community-made Angular directives into an existing Angular project (like the Awwwards sample).  Here are a few ideas:
 
