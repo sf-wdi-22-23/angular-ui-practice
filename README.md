@@ -234,7 +234,7 @@ UI-Bootstrap was built as part of a larger Angular-UI project that has many modu
 
 ## External Directive Independent Practice (15 mins)
 
-Try incorporating community-made Angular directives into an existing Angular project (like the Awwwards sample).  Here are a few ideas:
+Try incorporating community-made Angular modules into an existing Angular project (like the Awwwards sample).  Feel free to try any you'd like.  Here are a few ideas:
 
   * Add the <a href="https://github.com/urish/angular-moment" target="_blank">angular-moment</a> directive to show a date and time in your app that ticks down by the second.
 
