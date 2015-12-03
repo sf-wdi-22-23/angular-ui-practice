@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="Awwward">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Awwward</title>
+
+        <!-- custom styles -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- angular -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+
+        <!-- custom scripts -->
+        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="js/awardsController.js"></script>
+    </head>
+    <body>
+      <h1>Awwward</h1>
+      <hr>
+      <div ng-controller="awardsController as awards">
+
+        <form name="winnerForm" ng-submit="awards.createNewWinner()">
+          <label for="new-winner-name">New Winner's Name:</label>
+          <input type="text" id="new-winner-name" ng-model="awards.newWinner.name" placeholder="e.g. Iam Vinning">
+
+          <input type="submit" value="Add New Winner" ng-disabled="awards.newWinner.name.length <= 4 || awards.newWinner.name.length == null">
+        </form>
+
+        <ol id="contestants">
+          <li ng-repeat="winner in awards.winners">
+            <strong>{{winner.name}}</strong>
+          </li>
+        </ol>
+      </div>
+    </body>
+</html>
